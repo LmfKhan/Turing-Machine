@@ -1,0 +1,37 @@
+In a programming language of your choice (e.g. Python, Java, C#, C++, Javascript, etc) 
+implement a turing machine that is defined by the 7-tuple and receives as input to decide.
+CHECK!
+
+It should be designed in a way to be working for multiple examples by providing different 
+delta functions and other parameters. You can create a class or use programming language 
+tuples to represent transition function (delta) entries.
+CHECK!
+
+Show how your machine can decide the example for {w#w|w in  {0, 1}*}.   CHECK!
+ 
+Additional computation is a turing machine that computes the bitwise complement of the input string.
+
+Show the configuration of the machine in each step when it is running.  CHECK!
+
++20% bonus points if you can show the configuration in a visual format by showing the tape
+and head graphically in each step and by allowing to go to the next or previous configuration
+(using HTML5 Canvas and Javascript or C# Winforms Graphics, or any other 2D Graphics library). 
+Don't forget to use colors.
+
++20% if the previous is implemented and posted online with a public URL. 
+(Local demo is fine if you have difficulty finding a place for 10%)
+
++20% if you can enter and change the Turing machine config and run it in your browser 
+(Flask+ Python+Javascript could work)
+
+Submission:
+
+Code
+
+Screenshot of the list of configurations and the output in each case.
+
+Can be done in groups of maximum two. Both members should be able to fully explain the code.
+
+Presentation for those who need the visual bonus is on the due date for Tutorial. 
+For those looking to post in online, they can present their public URL until the Tuesday 
+the week after the due date and show it in class.
